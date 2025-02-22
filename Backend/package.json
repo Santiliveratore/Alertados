@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./dist/app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/core": "6.4.6",
+    "@mikro-orm/mysql": "6.4.6",
+    "@mikro-orm/sql-highlighter": "1.0.1",
+    "express": "4.21.2",
+    "reflect-metadata": "0.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/node": "22.13.4",
+    "tsc-watch": "6.2.1",
+    "typescript": "5.7.3"
+  }
+}
